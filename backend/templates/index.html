@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clinical Trial Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { padding: 20px; }
+        .card { margin: 10px 0; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="text-center mb-4">Clinical Trial Dashboard</h1>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Total Patients</h5>
+                    <p class="card-text fs-3">{{ total_patients }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card text-white bg-success">
+                <div class="card-body">
+                    <h5 class="card-title">Patients per Disease</h5>
+                    <ul>
+                        {% for disease, count in patients_per_disease.items() %}
+                        <li>{{ disease }}: {{ count }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card text-white bg-warning">
+                <div class="card-body">
+                    <h5 class="card-title">Patients per Treatment</h5>
+                    <ul>
+                        {% for treatment, count in patients_per_treatment.items() %}
+                        <li>{{ treatment }}: {{ count }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <form action="/graph" method="post" class="row g-3">
+        <div class="col-md-5">
+            <label for="disease" class="form-label">Select Disease</label>
+            <select class="form-select" name="disease" id="disease">
+                <option>All</option>
+                {% for d in diseases %}
+                <option>{{ d }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="col-md-5">
+            <label for="treatment" class="form-label">Select Treatment</label>
+            <select class="form-select" name="treatment" id="treatment">
+                <option>All</option>
+                {% for t in treatments %}
+                <option>{{ t }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="col-md-2 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary w-100">Show Graphs</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

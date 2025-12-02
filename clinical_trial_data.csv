@@ -1,0 +1,101 @@
+PatientID,Name,Age,Gender,Disease,Treatment,Dosage(mg),StartDate,EndDate,Outcome
+1,Patient1,76,Female,Arthritis,Drug B,250,2025-03-14,2025-10-11,Improved
+2,Patient2,38,Male,Arthritis,Therapy X,250,2025-08-04,2025-11-03,No Change
+3,Patient3,31,Male,Asthma,Drug C,50,2025-05-27,2025-08-17,No Change
+4,Patient4,64,Male,Arthritis,Therapy X,150,2025-03-17,2025-09-05,Improved
+5,Patient5,26,Male,Asthma,Drug C,150,2025-05-20,2025-09-27,Worsened
+6,Patient6,23,Male,Asthma,Drug A,150,2025-02-22,2025-08-17,Improved
+7,Patient7,74,Female,Hypertension,Drug A,150,2025-06-02,2025-07-17,Improved
+8,Patient8,24,Male,Cancer,Therapy Y,250,2025-08-12,2025-10-29,No Change
+9,Patient9,35,Male,Asthma,Drug B,50,2025-06-11,2025-07-23,Worsened
+10,Patient10,33,Male,Asthma,Drug C,100,2025-02-05,2025-05-30,Worsened
+11,Patient11,62,Female,Asthma,Drug B,50,2025-05-06,2025-06-19,Worsened
+12,Patient12,49,Female,Hypertension,Drug C,250,2025-12-22,2025-12-31,No Change
+13,Patient13,62,Female,Cancer,Drug B,250,2025-05-01,2025-11-10,Improved
+14,Patient14,56,Female,Hypertension,Drug A,200,2025-10-27,2025-11-30,Improved
+15,Patient15,49,Male,Asthma,Drug A,150,2025-02-20,2025-12-14,No Change
+16,Patient16,46,Male,Arthritis,Therapy X,250,2025-02-10,2025-10-02,Worsened
+17,Patient17,75,Female,Diabetes,Drug C,50,2025-03-26,2025-04-11,Worsened
+18,Patient18,55,Female,Asthma,Drug C,100,2025-03-30,2025-06-20,Improved
+19,Patient19,79,Female,Diabetes,Drug C,250,2025-11-08,2025-12-10,Worsened
+20,Patient20,29,Male,Hypertension,Therapy Y,50,2025-01-15,2025-09-05,Worsened
+21,Patient21,36,Female,Diabetes,Therapy X,50,2025-08-22,2025-09-07,No Change
+22,Patient22,59,Female,Arthritis,Therapy Y,100,2025-09-09,2025-12-31,Improved
+23,Patient23,63,Male,Cancer,Drug B,250,2025-05-15,2025-10-04,No Change
+24,Patient24,24,Female,Asthma,Therapy Y,100,2025-01-29,2025-10-31,No Change
+25,Patient25,36,Female,Asthma,Drug A,250,2025-10-25,2025-12-02,No Change
+26,Patient26,79,Male,Cancer,Therapy X,250,2025-05-06,2025-08-25,Improved
+27,Patient27,23,Female,Cancer,Drug B,250,2025-04-30,2025-05-09,Worsened
+28,Patient28,44,Female,Asthma,Therapy Y,100,2025-06-24,2025-06-26,Worsened
+29,Patient29,41,Male,Asthma,Drug B,200,2025-03-22,2025-12-10,Improved
+30,Patient30,40,Male,Cancer,Therapy Y,50,2025-08-22,2025-10-04,No Change
+31,Patient31,46,Female,Hypertension,Drug C,150,2025-12-07,2025-12-12,No Change
+32,Patient32,30,Female,Hypertension,Therapy X,100,2025-07-16,2025-11-30,Improved
+33,Patient33,51,Male,Asthma,Therapy Y,150,2025-06-06,2025-12-17,Improved
+34,Patient34,65,Male,Cancer,Therapy Y,50,2025-05-13,2025-08-05,Improved
+35,Patient35,79,Female,Arthritis,Drug C,100,2025-04-18,2025-06-12,No Change
+36,Patient36,27,Male,Diabetes,Drug A,250,2025-02-04,2025-03-18,Improved
+37,Patient37,61,Female,Asthma,Therapy X,100,2025-04-04,2025-06-24,Improved
+38,Patient38,52,Male,Hypertension,Therapy X,50,2025-01-07,2025-02-23,Improved
+39,Patient39,76,Male,Asthma,Drug B,100,2025-10-05,2025-12-26,Worsened
+40,Patient40,51,Male,Arthritis,Therapy X,250,2025-12-07,2025-12-10,Improved
+41,Patient41,41,Male,Cancer,Therapy Y,100,2025-03-25,2025-11-16,Improved
+42,Patient42,36,Female,Asthma,Drug B,150,2025-11-05,2025-11-16,No Change
+43,Patient43,61,Male,Hypertension,Drug B,100,2025-07-14,2025-09-06,Worsened
+44,Patient44,54,Male,Diabetes,Drug A,250,2025-01-05,2025-11-22,No Change
+45,Patient45,28,Female,Diabetes,Drug C,50,2025-11-22,2025-12-26,Improved
+46,Patient46,22,Male,Cancer,Drug C,100,2025-08-05,2025-11-19,Worsened
+47,Patient47,59,Female,Arthritis,Drug C,200,2025-01-31,2025-06-26,No Change
+48,Patient48,65,Female,Asthma,Therapy X,250,2025-09-27,2025-11-07,Worsened
+49,Patient49,45,Male,Arthritis,Drug C,250,2025-03-28,2025-10-22,No Change
+50,Patient50,31,Female,Arthritis,Drug B,200,2025-12-16,2025-12-25,Worsened
+51,Patient51,64,Female,Cancer,Drug B,150,2025-02-21,2025-09-25,Worsened
+52,Patient52,35,Female,Cancer,Therapy Y,100,2025-08-15,2025-12-10,Improved
+53,Patient53,23,Male,Cancer,Therapy X,250,2025-08-23,2025-12-09,Worsened
+54,Patient54,29,Male,Diabetes,Drug A,200,2025-02-18,2025-04-16,No Change
+55,Patient55,69,Female,Hypertension,Therapy Y,150,2025-10-04,2025-11-25,Improved
+56,Patient56,21,Female,Hypertension,Therapy Y,150,2025-07-05,2025-08-28,Improved
+57,Patient57,47,Male,Asthma,Drug A,150,2025-12-22,2025-12-29,No Change
+58,Patient58,58,Male,Arthritis,Therapy Y,250,2025-03-25,2025-08-22,No Change
+59,Patient59,79,Male,Diabetes,Therapy X,100,2025-10-14,2025-11-24,Improved
+60,Patient60,50,Male,Cancer,Therapy X,100,2025-09-01,2025-11-12,No Change
+61,Patient61,47,Female,Diabetes,Therapy X,200,2025-01-31,2025-10-16,Improved
+62,Patient62,24,Male,Asthma,Therapy Y,200,2025-01-28,2025-06-25,Improved
+63,Patient63,66,Male,Hypertension,Drug C,100,2025-05-10,2025-08-09,No Change
+64,Patient64,80,Male,Cancer,Therapy Y,150,2025-09-27,2025-12-02,Improved
+65,Patient65,40,Female,Cancer,Therapy Y,250,2025-11-05,2025-11-23,Improved
+66,Patient66,35,Female,Asthma,Drug C,100,2025-07-14,2025-12-19,Worsened
+67,Patient67,76,Male,Cancer,Therapy X,150,2025-05-22,2025-06-06,Worsened
+68,Patient68,58,Male,Diabetes,Drug A,150,2025-07-19,2025-09-29,Worsened
+69,Patient69,73,Female,Arthritis,Drug C,150,2025-04-15,2025-07-20,Worsened
+70,Patient70,57,Male,Asthma,Therapy Y,150,2025-07-14,2025-12-13,Worsened
+71,Patient71,34,Male,Arthritis,Therapy Y,250,2025-06-27,2025-09-20,Improved
+72,Patient72,24,Male,Diabetes,Drug A,250,2025-03-29,2025-11-11,Worsened
+73,Patient73,57,Male,Hypertension,Therapy X,50,2025-01-04,2025-03-21,Worsened
+74,Patient74,57,Male,Asthma,Drug A,200,2025-10-18,2025-10-23,Worsened
+75,Patient75,57,Female,Hypertension,Therapy X,200,2025-12-13,2025-12-24,No Change
+76,Patient76,34,Female,Arthritis,Therapy Y,50,2025-07-06,2025-12-11,Worsened
+77,Patient77,64,Male,Diabetes,Therapy X,100,2025-08-20,2025-10-22,Improved
+78,Patient78,35,Male,Hypertension,Drug B,50,2025-09-27,2025-12-18,Improved
+79,Patient79,50,Male,Hypertension,Therapy Y,150,2025-07-12,2025-07-28,Worsened
+80,Patient80,42,Male,Asthma,Drug B,100,2025-05-08,2025-06-19,Improved
+81,Patient81,47,Male,Diabetes,Therapy X,50,2025-06-28,2025-11-21,Improved
+82,Patient82,72,Male,Diabetes,Therapy Y,150,2025-06-18,2025-07-18,Improved
+83,Patient83,58,Male,Arthritis,Therapy X,150,2025-02-24,2025-08-05,No Change
+84,Patient84,75,Female,Diabetes,Therapy Y,100,2025-04-23,2025-07-23,Improved
+85,Patient85,30,Female,Asthma,Therapy Y,150,2025-08-29,2025-11-17,Worsened
+86,Patient86,31,Female,Asthma,Therapy Y,250,2025-09-13,2025-11-07,Worsened
+87,Patient87,73,Female,Hypertension,Drug B,50,2025-06-14,2025-09-15,Worsened
+88,Patient88,41,Male,Diabetes,Drug B,250,2025-01-05,2025-01-11,Worsened
+89,Patient89,54,Female,Diabetes,Therapy X,150,2025-12-06,2025-12-27,No Change
+90,Patient90,34,Female,Hypertension,Drug B,150,2025-07-03,2025-11-25,Improved
+91,Patient91,52,Female,Arthritis,Drug A,50,2025-01-20,2025-08-05,Worsened
+92,Patient92,70,Female,Asthma,Therapy Y,50,2025-12-15,2025-12-20,Improved
+93,Patient93,30,Male,Cancer,Drug C,150,2025-07-22,2025-12-07,Improved
+94,Patient94,20,Male,Asthma,Therapy X,50,2025-05-17,2025-12-25,Improved
+95,Patient95,69,Female,Cancer,Drug A,150,2025-05-14,2025-10-04,Worsened
+96,Patient96,24,Female,Arthritis,Drug A,50,2025-09-03,2025-09-09,Improved
+97,Patient97,24,Female,Asthma,Therapy Y,250,2025-04-16,2025-08-01,Improved
+98,Patient98,37,Male,Diabetes,Drug B,200,2025-06-02,2025-08-23,No Change
+99,Patient99,25,Female,Arthritis,Drug C,200,2025-12-10,2025-12-23,No Change
+100,Patient100,70,Male,Arthritis,Drug B,200,2025-09-02,2025-09-17,No Change
